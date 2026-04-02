@@ -1,0 +1,23 @@
+# CMake / local build trees
+build/
+cmake-build*/
+out/
+
+# Ninja / MSVC / IDE
+.ninja_deps
+.ninja_log
+.vs/
+*.vcxproj*
+*.sln
+CMakeUserPresets.json
+
+# Compiled artifacts (if building in-source by mistake)
+*.o
+*.obj
+*.exe
+*.ilk
+*.pdb
+*.dylib
+*.so
+*.a
+*.lib
